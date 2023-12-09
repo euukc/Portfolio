@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    flex-direction: column;   
+    width: 100vw;
+       
+    
+}
+
+.cabecalho__menu__logo{
+    width: 100px;
+    height: 60px;
+    display: inline-block; /*permite os ajustes de altura*/  
+    margin-bottom: 10px;      
+    
+}
+
+.cabecalho__menu__logo img{
+    width: 100px;
+    height: 100px;
+    
+}
+
+span#icon-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.274);
+    color: white;     
+    cursor: pointer;
+    height: 30px;       
+    margin-bottom: 10px;    
+    padding: 0 100px 0 100px;
+}
+
+span#icon-menu:hover{
+    background-color: white;
+    color: black;
+
+}
+
+.cabecalho__menu__itens{
+    display: flex;
+    flex-wrap: wrap;  
+    flex-direction: column;
+    font-size: 15px;
+    gap: 5px;  
+    display: none;      
+}
+
+.cabecalho__menu__itens__item{
+    display: flex;
+    border: 1px solid rgba(255, 255, 255, 0.329);
+    padding: 2px;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    
+}
+
+.cabecalho__menu__itens__item:hover{
+    background-color: rgba(255, 255, 255, 0.274);
+    cursor: pointer;
+}
+
+/* JS MENU */
+
+.open{
+    display: block;
+}
+
+/* DESKTOP */
+
+/* Cabecalho */
+
+@media screen and (min-width: 1024px){
+
+.cabecalho {
+    height: 75px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row; 
+    align-items: center;             
+}
+    
+.cabecalho__menu__logo{
+    width: 100px;
+    height: 150px;
+    margin-bottom: 10px;
+    margin-top: 50px;      
+        
+}
+
+.cabecalho__menu__logo img{
+    width: 150px;
+    height: 150px;    
+    
+}
+
+span#icon-menu{
+    display: none;
+}
+
+.cabecalho__menu__itens{
+    display: flex;
+    flex-wrap: nowrap; 
+    flex-direction: row; 
+    font-size: 20px;
+    margin-top: 50px;  
+}
+
+.cabecalho__menu__itens__item{
+    display: flex;
+    border: none;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    }
+
+.cabecalho__menu__itens__item:hover{
+    color: black;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+};
+    
+/* Cabecalho */
+
+
+

@@ -1,0 +1,114 @@
+.bg-apresentacao{
+   background-image: url(/img/bg-apresentação.jpg); 
+   background-size: cover;
+}
+
+
+.apresentacao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 400px;
+    margin: 20px 0px 20px;
+}
+
+.hello{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.apresentacao__sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    font-size: 11.63px;
+    padding: 10px 25px 0 25px;   
+        
+}
+
+img#foto-kenia{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    
+}
+
+
+@media screen and (min-width: 1024px){
+
+.bg-apresentacao{
+    background-image: url(/img/bg-apresentação.jpg);
+    background-size: cover;
+}
+
+.apresentacao{
+    display: flex;
+    flex-direction: row;    
+    align-items: center;
+    width: 100%;
+    height: 700px;   
+    margin: 30px 30px;
+    overflow-x: hidden;
+           
+}
+
+ .hello{
+    display: flex;
+    align-items: center;
+    font-size: 80px;
+    text-shadow: 3.5px 3.5px black;    
+}
+
+img#foto-kenia{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;   
+    animation: flutuacao 4.5s ease-in-out infinite;
+      
+}
+
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    flex-direction: column;  
+    
+}
+
+.container1 h1 {
+    font-size: 30px;    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container1 h2{
+    font-size: 20px;
+}
+
+@keyframes flutuacao {
+    0%, 100%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-100px);
+    }
+}  
+
+
+}
+
+
+    
+
+
+
