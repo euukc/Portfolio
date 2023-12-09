@@ -2,7 +2,7 @@
 
 @import url(./style.css);
 @import url(./style/header.css);
-@import url(./style/apresentacao.css);
+@import url(style/apresentacao.css);
 @import url(./style/habilidades.css);
 @import url(./style/servicos.css);
 @import url(./style/rodape.css);
