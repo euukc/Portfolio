@@ -22,3 +22,22 @@ const swiper = new Swiper('.swiper', {
 
   });
 
+// evento menu 
+
+const menu = document.querySelector('.cabecalho__menu__itens');
+
+const itensMenu = menu.querySelectorAll('.cabecalho__menu__itens__item');
+
+itensMenu.forEach((item, index) => {
+    item.addEventListener('click', () => {
+        const targetId = item.getAttribute('data-target');
+        const targetSection = document.getElementById(targetId);
+
+        if (targetSection) {
+            targetSection.scrollIntoView({ behavior: 'smooth'});
+        }
+
+    });
+});
+
+

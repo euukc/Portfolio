@@ -1,3 +1,8 @@
+.container-titulos{
+    height: 150px;
+    }
+
+
 .descricao-todos{
     width: 348px;    
     display: flex;
@@ -16,7 +21,11 @@
     padding: 10px;
     align-items: center;
     gap: 5px;
-    
+    transition: transform 0.2s ease-in-out;
+}
+.descricao-servicos:hover {
+    transform: scale(1.1) translateZ(10px);
+      
 }
 
 .descricao-servicos h1{
@@ -37,12 +46,21 @@
 
 @media screen and (min-width: 1024px){
 
+.container-serviços{
+    height: 500px;
+}
+
+.container-subtitulos-servicos{
+    margin-left: 20px;
+}
+
 .descricao-todos{
-    width: auto;    
     display: flex;
+    width: auto;  
+    justify-content: center;    
     flex-direction: row;
-    gap: 10px;
-    margin: 50px;
+    gap: 60px;
+    margin: 70px;
         
 }
     
@@ -57,8 +75,12 @@
     padding: 10px;
     align-items: center;
     gap: 5px;
-
+    background-color: rgb(153, 102, 180);
+    transition: transform 0.2s ease-in-out;
 }
+.descricao-servicos:hover {
+    transform: scale(1.1) translateZ(10px);
+  }
 
 .descricao-servicos{
     width: 400px;

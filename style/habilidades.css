@@ -33,6 +33,10 @@
 
 @media screen and (min-width: 1024px){
 
+.container-habilidades{
+    margin-left: 20px;
+    margin-top: 20px;
+}
 
 .container-titulos{
     display: flex;
@@ -48,9 +52,7 @@
 
 
 .swiper-wrapper{
-    margin: 40px;
-    
-    
+    margin: 40px;   
     
 }
 
@@ -71,9 +73,8 @@
 
 .carrosel {
     margin-left: 50px;
-    height: 200px;
+    height: 350px;
         
 }
-
 
 }

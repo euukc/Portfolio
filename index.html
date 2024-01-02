@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kênia Caroline - Desenvolvedor de Software & Estrategista de Marketing Digital</title>
+    <title>Kênia Caroline - Desenvolvedora de Software & Estrategista Digital</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <link rel="stylesheet" href="/reset.css">
@@ -23,20 +23,20 @@
             </span>
             <span onclick="menuShow()" id="icon-menu" class="material-icons">menu</span>
             <menu class="cabecalho__menu__itens">
-                <li class="cabecalho__menu__itens__item"> Sobre</li>
-                <li class="cabecalho__menu__itens__item"> Habilidades</li>
-                <li class="cabecalho__menu__itens__item"> Certificações</li>
-                <li class="cabecalho__menu__itens__item"> Projetos</li>
-                <li class="cabecalho__menu__itens__item"> Serviços</li>
-                <li class="cabecalho__menu__itens__item"> Contato</li>
+                <li class="cabecalho__menu__itens__item" data-target="section1"> Sobre</li>
+                <li class="cabecalho__menu__itens__item" data-target="section2"> Habilidades</li>
+                <li class="cabecalho__menu__itens__item" data-target="section3"> Certificações</li>
+                <li class="cabecalho__menu__itens__item" data-target="section4"> Projetos</li>
+                <li class="cabecalho__menu__itens__item" data-target="section5"> Serviços</li>
+                <li class="cabecalho__menu__itens__item" data-target="section6"> Contato</li>
             </menu>
         </header>
         
-        <!-- Cabeçalho -->
-        <main >
+    
         
-        <!-- Apresentação -->
-            <section class="apresentacao">
+    <!-- Apresentação -->
+
+            <section class="apresentacao" id="section1">
         
                 <div class="container1">
                     <h1 class="hello">Hello, World!</h1>
@@ -55,14 +55,14 @@
             </section>
     </div>
 
-<!-- Apresentação -->
 
 <!-- Habilidades -->
-    <section class="container-titulos">
-        <div class="container-subtitulos">
-            <p>HABILIDADES TÉCNICAS</p>
-            <h2 class="descricao">Minha Stack</h2>
-        </div>
+            
+    <section id="section2" class="container-habilidades">
+        <p>HABILIDADES TÉCNICAS</p>
+        <h2 class="descricao">Minha Stack</h2>
+    </section>
+
     </section>
     <section class="carrossel">
         <!-- Slider main container -->
@@ -86,65 +86,63 @@
 
     </section>
 
-<!-- Habilidades -->
-
 <!-- Certificados -->
-    <section class="container-titulos">
-        <div class="container-subtitulos">
-            <p>ESTUDOS</p>
-            <h2 class="descricao">Cursos e Certificados</h2>
-        </div>
-    </section>
-    <section class="carrossel">
-        <!-- Slider main container -->
-        <div class="swiper">
-            <!-- Additional required wrapper -->
-            <!-- If we need pagination -->
-            <div class="swiper-pagination"></div>
-
-            <div class="swiper-wrapper">
-                <!-- Slides -->
-                <div class="swiper-slide" class="cursos"> <img src="/img/alura1.png" alt="curso-html-css-alura"></div>
-                <div class="swiper-slide" class="cursos"> <img src="/img/alura2.png" alt="curso-flexbox-alura"></div>
-                <div class="swiper-slide" class="cursos"> <img src="/img/alura3.png" alt="curso-javascript-alura"></div>
-                <div class="swiper-slide" class="cursos"> <img src="/img/alura4.png" alt="curso-logica-alura"></div>
-                <div class="swiper-slide" class="cursos"> <img src="/img/alura5.png" alt="curso-logica-programacao-alura"></div>
-                <div class="swiper-slide" class="cursos"> <img src="/img/dio1.png" alt="curso-csharp-dio"></div>
-                <div class="swiper-slide" class="cursos"> <img src="/img/dio2.png" alt="curso-bancodados-dio"></div>
-                <div class="swiper-slide" class="cursos"> <img src="/img/dio3.png" alt="curso-sintaxe-csharp"></div>
-                
+    <div class="container-certificados">
+        <section class="titulo-certificados">
+            <div class="container-subtitulos" id="section3">
+                <p>ESTUDOS</p>
+                <h2 class="descricao">Cursos e Certificados</h2>
             </div>
-            <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>            
-    </section>
-
-<!-- Certificados -->
+        </section>
+        <section class="carrossel">
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide" class="cursos"> <img src="/img/alura1.png" alt="curso-html-css-alura"></div>
+                    <div class="swiper-slide" class="cursos"> <img src="/img/alura2.png" alt="curso-flexbox-alura"></div>
+                    <div class="swiper-slide" class="cursos"> <img src="/img/alura3.png" alt="curso-javascript-alura"></div>
+                    <div class="swiper-slide" class="cursos"> <img src="/img/alura4.png" alt="curso-logica-alura"></div>
+                    <div class="swiper-slide" class="cursos"> <img src="/img/alura5.png" alt="curso-logica-programacao-alura"></div>
+                    <div class="swiper-slide" class="cursos"> <img src="/img/dio1.png" alt="curso-csharp-dio"></div>
+                    <div class="swiper-slide" class="cursos"> <img src="/img/dio2.png" alt="curso-bancodados-dio"></div>
+                    <div class="swiper-slide" class="cursos"> <img src="/img/dio3.png" alt="curso-sintaxe-csharp"></div>
+        
+                </div>
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+        </section>
+    </div>
 
 <!-- Meus projetos -->
 
-    <section class="container-titulos" class="projetos">
-        <div class="container-subtitulos">
+    <section class="container-projetos" class="projetos" id="section4">
+        <div class="container-subtitulos-projetos">
             <p>MEUS</p>
             <h2 class="descricao">Projetos</h2>
-            <button id="botao-projetos">
-                <img src="/img/github.png" alt="logo-github">
-                <a href="https://github.com/euukc" target="_blank">Clique aqui e confira os meus atuais projetos no GitHub!</a>
-            </button>
+            <div class="container-botao">
+                <button id="botao-projetos">
+                    <img src="/img/github.png" alt="logo-github">
+                    <a href="https://github.com/euukc" target="_blank">Clique aqui e confira os meus atuais projetos no GitHub!</a>
+                </button>
+            </div>
         </div>
     </section>
 
-<!-- Meus projetos -->
 
 <!-- Serviços oferecidos -->
-<section class="container-titulos" class="servicos">
-    <div class="container-subtitulos">
+<section class="container-serviços" class="servicos" id="section5">
+    <div class="container-subtitulos-servicos">
         <p>SERVIÇOS</p>
         <h2 class="descricao">Oferecidos</h2>
     </div>
     <div class="descricao-todos">
         <div class="descricao-servicos">
-            <h1> Desenvolvimento web</h1>
+            <h1> Desenvolvimento Web</h1>
             <p>Criação de Sites</p>
             <p>Landing Page</p>
         </div>
@@ -156,10 +154,9 @@
     </div>
 </section>
 
-<!-- Serviços oferecidos -->
 </main>
 
-<footer class="rodape">
+<footer class="rodape" id="section6">
     <h1>Copyright © 2023 by Kênia Caroline. All rights reserved.</h1>
     <div>
         <a href="https://www.linkedin.com/in/keniac/" target="_blank"><img src="/img/linkedin.png" alt="logo-linkedin"></a>

@@ -1,7 +1,7 @@
 .bg-apresentacao{
    background-image: url(/img/bg-apresentação.jpg); 
    background-size: cover;
-}
+   }
 
 
 .apresentacao{
@@ -44,6 +44,10 @@ img#foto-kenia{
 .bg-apresentacao{
     background-image: url(/img/bg-apresentação.jpg);
     background-size: cover;
+    width: 100%; 
+    height: 100vh;
+    overflow: hidden;
+    background-position: center;
 }
 
 .apresentacao{
